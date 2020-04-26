@@ -77,11 +77,11 @@ class _PriceScreenState extends State<PriceScreen> {
     }
   }
 
-//  @override
-//  void initState() {
-//    super.initState();
-//    getData();
-//  }
+  @override
+  void initState() {
+    super.initState();
+    getData();
+  }
 
   Column makeCards() {
     List<CryptoCard> cryptoCards = [];
